@@ -1,16 +1,29 @@
-# React + Vite
+# Abdullah's macOS Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An interactive macOS-style developer portfolio built with React, GSAP, Tailwind CSS, and Zustand.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- macOS-inspired desktop interface
+- Interactive Dock
+- Draggable and resizable windows
+- Smooth GSAP animations
+- Interactive project showcase
+- Custom Safari and Finder-style windows
+- Responsive design
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Tailwind CSS
+- GSAP
+- Zustand
+- JavaScript
 
-## Expanding the Oxlint configuration
+## Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+[View Portfolio](https://abdullah-s-portfolio-one.vercel.app)
+
+## Author
+
+**Abdullah Jutt**
