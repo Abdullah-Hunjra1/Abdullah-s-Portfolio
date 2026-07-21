@@ -2,6 +2,8 @@
 
 An interactive macOS-style developer portfolio built with React, GSAP, Tailwind CSS, and Zustand.
 
+> **Note:** This portfolio is designed for desktop screens and is not currently optimized for mobile devices.
+
 ## Features
 
 - macOS-inspired desktop interface
@@ -10,15 +12,10 @@ An interactive macOS-style developer portfolio built with React, GSAP, Tailwind 
 - Smooth GSAP animations
 - Interactive project showcase
 - Custom Safari and Finder-style windows
-- Responsive design
 
 ## Tech Stack
 
-- React.js
-- Tailwind CSS
-- GSAP
-- Zustand
-- JavaScript
+[![My Skills](https://skillicons.dev/icons?i=react,tailwind,gsap,zustand,js)](https://skillicons.dev)
 
 ## Live Demo
 
