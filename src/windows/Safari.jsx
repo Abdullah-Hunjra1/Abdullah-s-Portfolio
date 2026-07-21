@@ -1,7 +1,16 @@
-import WindowWrapper from "#hoc/WindowWrapper.jsx"
+import WindowWrapper from "#hoc/WindowWrapper.jsx";
 import { WindowControls } from "#components";
-import { ChevronLeft, ChevronRight, Copy, MoveRight, PanelLeft, Plus, Search, Share, ShieldHalf } from "lucide-react";
-import { blogPosts } from "#constants";
+import {
+    ChevronLeft,
+    ChevronRight,
+    Copy,
+    PanelLeft,
+    Plus,
+    Search,
+    Share,
+    ShieldHalf,
+} from "lucide-react";
+import { journey } from "#constants";
 
 const Safari = () => {
     return (
@@ -22,7 +31,11 @@ const Safari = () => {
                     <div className="search">
                         <Search className="icon" />
 
-                        <input type="text" placeholder="Search or enter website name" className="flex-1" />
+                        <input
+                            type="text"
+                            placeholder="Beyond the Code — What I Do"
+                            className="flex-1"
+                        />
                     </div>
                 </div>
 
@@ -31,32 +44,34 @@ const Safari = () => {
                     <Plus className="icon" />
                     <Copy className="icon" />
                 </div>
-
             </div>
 
             <div className="blog">
-                <h2>My Developer Blog</h2>
+                <h2>{journey.title}</h2>
 
                 <div className="space-y-8">
-                    {blogPosts.map(({ id, image, title, date, link }) => (
-                        <div key={id} className="blog-post">
-                            <div className="col-span-2">
-                                <img src={image} alt={title} />
-                            </div>
-
-                            <div className="content">
-                                <p>{date}</p>
-                                <h3>{title}</h3>
-                                <a href={link} target="_blank" rel="noopener noreferrer">Check out the full post <MoveRight className="icon-hover" /></a>
-                            </div>
+                    <div className="blog-post">
+                        <div className="col-span-2">
+                            <img
+                                src={journey.image}
+                                alt="Abdullah"
+                            />
                         </div>
-                    ))}
+
+                        <div className="content">
+                            {journey.description.map((text, index) => (
+                                <p key={index}>{text}</p>
+                            ))}
+
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
-const SafariWindow = WindowWrapper(Safari, 'safari')
+const SafariWindow = WindowWrapper(Safari, "safari");
 
-export default SafariWindow
+export default SafariWindow;

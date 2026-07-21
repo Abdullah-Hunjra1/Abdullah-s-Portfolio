@@ -44,7 +44,7 @@ const dockApps = [
   },
   {
     id: "safari",
-    name: "Articles", // was "Safari"
+    name: "Journey", // was "Safari"
     icon: "safari.png",
     canOpen: true,
   },
@@ -74,30 +74,40 @@ const dockApps = [
   },
 ];
 
-const blogPosts = [
-  {
-    id: 1,
-    date: "Sep 2, 2025",
-    title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
-  },
-  {
-    id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
-  },
-  {
-    id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
-  },
-];
+// const blogPosts = [
+//   {
+//     id: 1,
+//     date: "Sep 2, 2025",
+//     title:
+//       "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+//     image: "/images/blog1.png",
+//     link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+//   },
+//   {
+//     id: 2,
+//     date: "Aug 28, 2025",
+//     title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+//     image: "/images/blog2.png",
+//     link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+//   },
+//   {
+//     id: 3,
+//     date: "Aug 15, 2025",
+//     title: "The Ultimate Guide to Mastering GSAP Animations",
+//     image: "/images/blog3.png",
+//     link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+//   },
+// ];
+
+const journey = {
+  title: "Beyond the Code",
+  description: [
+    "When I'm not building web applications, I enjoy exploring new ideas, working on side projects, and finding better ways to solve everyday problems.",
+    "I'm always curious about how technology can be used to turn simple ideas into something useful. I enjoy experimenting with new concepts, improving my skills through real projects, and finding better ways to build things.",
+    "Outside of coding, I like discovering new tech, working on ideas that challenge me, and occasionally getting lost in a random rabbit hole on the internet.",
+  ],
+  image: "/images/abd1.png",
+};
 
 const techStack = [
   {
@@ -208,7 +218,7 @@ export {
   navLinks,
   navIcons,
   dockApps,
-  blogPosts,
+  journey,
   techStack,
   socials,
   photosLinks,
