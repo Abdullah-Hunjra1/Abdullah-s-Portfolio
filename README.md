@@ -15,7 +15,11 @@ An interactive macOS-style developer portfolio built with React, GSAP, Tailwind 
 
 ## Tech Stack
 
-[![My Skills](https://skillicons.dev/icons?i=react,tailwind,gsap,zustand,js)](https://skillicons.dev)
+- React.js
+- Tailwind CSS
+- GSAP
+- Zustand
+- JavaScript
 
 ## Live Demo
 
