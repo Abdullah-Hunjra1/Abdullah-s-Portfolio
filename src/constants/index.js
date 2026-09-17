@@ -460,12 +460,10 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/abd1.png",
       description: [
-        description: [
-  "Hey! I’m Abdullah 👋, a Full Stack Developer who enjoys turning ideas into real-world web applications.",
-  "I work with React, Next.js, TypeScript, Node.js, Express.js, MongoDB, and PostgreSQL to build modern, scalable, and user-friendly applications.",
-  "I enjoy solving problems, exploring new technologies, and using modern development tools to build products that are simple, useful, and well-structured.",
-  "When I’m away from the code, I’m usually working on a new project, learning something new, or thinking about what to build next.",
-],
+          "Hey! I’m Abdullah 👋, a Full Stack Developer who enjoys turning ideas into real-world web applications.",
+           "I work with React, Next.js, TypeScript, Node.js, Express.js, MongoDB, and PostgreSQL to build modern, scalable, and user-friendly applications.",
+           "I enjoy solving problems, exploring new technologies, and using modern development tools to build products that are simple, useful, and well-structured.",
+           "When I’m away from the code, I’m usually working on a new project, learning something new, or thinking about what to build next.",
       ],
     },
   ],
