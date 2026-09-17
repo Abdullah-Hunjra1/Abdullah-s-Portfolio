@@ -112,7 +112,7 @@ const journey = {
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "JavaScript", "HTML5", "CSS3"],
+    items: ["React.js", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3"],
   },
   {
     category: "Styling",
@@ -120,18 +120,22 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express"],
+    items: ["Node.js", "Express.js"],
   },
   {
-    category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    category: "Database & ORM",
+    items: ["MongoDB", "PostgreSQL", "Prisma", "Convex"],
   },
   {
     category: "Authentication",
     items: ["JWT", "Clerk"],
   },
   {
-    category: "Tools",
+    category: "AI & Development Tools",
+    items: ["AI SDK", "Cursor", "Antigravity"],
+  },
+  {
+    category: "Tools & Deployment",
     items: ["Git", "GitHub", "Postman", "Vercel"],
   },
 ];
@@ -143,6 +147,13 @@ const socials = [
     icon: "/icons/github.svg",
     bg: "#181717",
     link: "https://github.com/Abdullah-Hunjra1",
+  },
+  {
+    id: 4,
+    text: "LinkedIn",
+    icon: "/icons/linkedin.svg",
+    bg: "#0A66C2",
+    link: "https://www.linkedin.com/in/abdullah-jutt-8194bb279",
   },
   {
     id: 2,
@@ -157,13 +168,6 @@ const socials = [
     icon: "/icons/twitter.svg",
     bg: "#000000",
     link: "https://x.com/ABDJutt804",
-  },
-  {
-    id: 4,
-    text: "LinkedIn",
-    icon: "/icons/linkedin.svg",
-    bg: "#0A66C2",
-    link: "https://www.linkedin.com/in/abdullah-jutt-8194bb279",
   },
 ];
 
@@ -456,10 +460,12 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/abd1.png",
       description: [
-        "Hey! I’m Abdullah 👋, a Full Stack MERN Developer who enjoys turning ideas into real-world web applications.",
-        "I mostly work with JavaScript, React, Node.js, Express.js, and MongoDB, building everything from responsive user interfaces to complete full-stack applications.",
-        "I enjoy solving problems, writing clean code, and creating products that are simple, useful, and easy to use.",
-        "When I’m away from the code, I’m usually working on a new project, exploring something interesting, or thinking about what to build next.",
+        description: [
+  "Hey! I’m Abdullah 👋, a Full Stack Developer who enjoys turning ideas into real-world web applications.",
+  "I work with React, Next.js, TypeScript, Node.js, Express.js, MongoDB, and PostgreSQL to build modern, scalable, and user-friendly applications.",
+  "I enjoy solving problems, exploring new technologies, and using modern development tools to build products that are simple, useful, and well-structured.",
+  "When I’m away from the code, I’m usually working on a new project, learning something new, or thinking about what to build next.",
+],
       ],
     },
   ],
