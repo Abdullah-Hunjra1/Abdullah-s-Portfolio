@@ -229,194 +229,6 @@ export {
   gallery,
 };
 
-// const WORK_LOCATION = {
-//   id: 1,
-//   type: "work",
-//   name: "Work",
-//   icon: "/icons/work.svg",
-//   kind: "folder",
-//   children: [
-//     // ▶ Project 1
-//     {
-//       id: 5,
-//       name: "TaskForge - Project Management Platform",
-//       icon: "/images/folder.png",
-//       kind: "folder",
-//       position: "top-10 left-5",
-//       windowPosition: "top-[5vh] left-5",
-//       children: [
-//         {
-//           id: 1,
-//           name: "TaskForge Project.txt",
-//           icon: "/images/txt.png",
-//           kind: "file",
-//           fileType: "txt",
-//           position: "top-5 left-10",
-//           description: [
-//             "TaskForge is a modern full-stack project management platform built to help teams organize projects, manage tasks, and collaborate efficiently.",
-//             "It provides a centralized workspace where teams can create projects, assign tasks, track progress, and manage their work through an intuitive dashboard.",
-//             "The platform is built with React, Node.js, Express, and PostgreSQL, with Clerk handling authentication and Prisma managing database interactions.",
-//             "TaskForge also uses Inngest for background workflows and automated processes, making it a scalable and practical solution for modern team collaboration.",
-//           ],
-//         },
-//         {
-//           id: 2,
-//           name: "taskforge.vercel",
-//           icon: "/images/safari.png",
-//           kind: "file",
-//           fileType: "url",
-//           href: "https://task-forge-client.vercel.app",
-//           position: "top-10 right-20",
-//         },
-//         {
-//           id: 4,
-//           name: "taskforge.png",
-//           icon: "/images/image.png",
-//           kind: "file",
-//           fileType: "img",
-//           position: "top-52 right-99",
-//           imageUrl: "/images/taskforge-dash.png",
-//         },
-//         {
-//           id: 8,
-//           name: "taskforge1.png",
-//           icon: "/images/image.png",
-//           kind: "file",
-//           fileType: "img",
-//           position: "top-52 right-60",
-//           imageUrl: "/images/taskforge-CreateProject.png",
-//         },
-//         {
-//           id: 9,
-//           name: "taskforge2.png",
-//           icon: "/images/image.png",
-//           kind: "file",
-//           fileType: "img",
-//           position: "top-52 right-20",
-//           imageUrl: "/images/taskforge-team.png",
-//         },
-//       ],
-//     },
-
-//     // ▶ Project 2
-//     {
-//       id: 6,
-//       name: "NeuroDiary - AI Digital Diary",
-//       icon: "/images/folder.png",
-//       kind: "folder",
-//       position: "top-52 right-80",
-//       windowPosition: "top-[28vh] left-7",
-//       children: [
-//         {
-//           id: 1,
-//           name: "NeuroDiary Project.txt",
-//           icon: "/images/txt.png",
-//           kind: "file",
-//           fileType: "txt",
-//           position: "top-12 right-10",
-//           description: [
-//             "NeuroDiary is an AI-powered digital diary designed to help users capture their thoughts, track their moods, and gain meaningful insights through journaling.",
-//             "Instead of being just a place to write, it uses AI-powered sentiment analysis to understand the emotions behind journal entries and provide intelligent insights.",
-//             "Users can reflect on their thoughts, monitor their mood over time, and better understand their emotional patterns through a simple and intuitive experience.",
-//             "It's built with React, Node.js, Express, and MongoDB, with Groq AI powering its intelligent features and Stripe handling payment integration.",
-//           ],
-//         },
-//         {
-//           id: 2,
-//           name: "neurodiary.vercel",
-//           icon: "/images/safari.png",
-//           kind: "file",
-//           fileType: "url",
-//           href: "https://neuro-diary-frontend.vercel.app",
-//           position: "top-12 left-15",
-//         },
-//         {
-//           id: 4,
-//           name: "CreateNewEntry.png",
-//           icon: "/images/image.png",
-//           kind: "file",
-//           fileType: "img",
-//           position: "top-52 left-5",
-//           imageUrl: "/images/neu-createEntry.png",
-//         },
-//         {
-//           id: 8,
-//           name: "UserDashboard.png",
-//           icon: "/images/image.png",
-//           kind: "file",
-//           fileType: "img",
-//           position: "top-52 left-48",
-//           imageUrl: "/images/neu-userdashboard.png",
-//         },
-//         {
-//           id: 9,
-//           name: "AdminDashboard.png",
-//           icon: "/images/image.png",
-//           kind: "file",
-//           fileType: "img",
-//           position: "top-52 left-90",
-//           imageUrl: "/images/neu-admindashboard.png",
-//         },
-//       ],
-//     },
-
-//     // ▶ Project 3
-// {
-//   id: 7,
-//   name: "Connectify - Video Chat & Social App",
-//   icon: "/images/folder.png",
-//   kind: "folder",
-//   position: "top-10 left-80",
-//   windowPosition: "top-[50vh] left-7",
-//   children: [
-//     {
-//       id: 1,
-//       name: "Connectify Project.txt",
-//       icon: "/images/txt.png",
-//       kind: "file",
-//       fileType: "txt",
-//       position: "top-5 left-10",
-//       description: [
-//         "Connectify is an all-in-one social networking platform that brings real-time messaging, video calling, and social interactions together in one place.",
-//         "Users can connect with friends, send messages, make video calls, and interact through a modern and responsive social experience.",
-//         "It includes secure authentication, an onboarding flow, a friends system, protected routes, and customizable UI themes for a more personalized experience.",
-//         "It's built with React, Node.js, Express, and MongoDB, with real-time communication powered by Socket.IO and modern tools for a smooth and reliable user experience.",
-//       ],
-//     },
-//     {
-//       id: 2,
-//       name: "connectify.vercel",
-//       icon: "/images/safari.png",
-//       kind: "file",
-//       fileType: "url",
-//       href: "https://connectify-peach.vercel.app",
-//       position: "top-10 right-20",
-//     },
-//     {
-//       id: 4,
-//       name: "connectify.png",
-//       icon: "/images/image.png",
-//       kind: "file",
-//       fileType: "img",
-//       position: "top-52 right-90",
-//       imageUrl: "/images/connectify.png",
-//     },
-//     {
-//       id: 8,
-//       name: "LoginPage.png",
-//       icon: "/images/image.png",
-//       kind: "file",
-//       fileType: "img",
-//       position: "top-52 right-40",
-//       imageUrl: "/images/connectify-login.png",
-//     },
-    
-//   ],
-// },
-//   ],
-// };
-
-
 
 const WORK_LOCATION = {
   id: 1,
@@ -464,7 +276,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 right-60",
-          imageUrl: "/images/testpilot-tests.png",
+          imageUrl: "/images/test-pilot.png",
         },
         {
           id: 9,
@@ -473,7 +285,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 right-20",
-          imageUrl: "/images/testpilot-results.png",
+          imageUrl: "/images/test-pilot1.png",
         },
       ],
     },
@@ -517,7 +329,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 left-48",
-          imageUrl: "/images/codecanvas-editor.png",
+          imageUrl: "/images/code-canvas.png",
         },
       ],
     },
@@ -590,7 +402,7 @@ const WORK_LOCATION = {
       name: "Connectify - Video Chat & Social App",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-80",
+      position: "top-10 right-10",
       windowPosition: "top-[50vh] left-7",
       children: [
         {
@@ -643,7 +455,7 @@ const WORK_LOCATION = {
       name: "TaskForge - Project Management Platform",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-52 right-80",
+      position: "top-52 right-10",
       windowPosition: "top-[28vh] left-7",
       children: [
         {
