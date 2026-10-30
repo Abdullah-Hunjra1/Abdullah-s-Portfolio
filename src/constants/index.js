@@ -340,7 +340,7 @@ const WORK_LOCATION = {
       name: "NeuroDiary - AI Digital Diary",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-50",
+      position: "top-10 left-48",
       windowPosition: "top-[50vh] left-7",
       children: [
         {
@@ -402,7 +402,7 @@ const WORK_LOCATION = {
       name: "Connectify - Video Chat & Social App",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-85",
+      position: "top-10 left-90",
       windowPosition: "top-[50vh] left-7",
       children: [
         {
