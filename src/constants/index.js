@@ -402,7 +402,7 @@ const WORK_LOCATION = {
       name: "Connectify - Video Chat & Social App",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-52 left-120",
+      position: "top-10 left-80",
       windowPosition: "top-[50vh] left-7",
       children: [
         {
@@ -455,7 +455,7 @@ const WORK_LOCATION = {
       name: "TaskForge - Project Management Platform",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-120",
+      position: "top-52 right-80",
       windowPosition: "top-[28vh] left-7",
       children: [
         {
